@@ -1,0 +1,48 @@
+body {
+  background-color: pink;
+  background-image: linear-gradient(to right, green, blue);
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  padding: 10px;
+  display: inline;
+  margin-left: 20px;
+  margin-bottom: 25px;
+  position: absolute;
+  top: 20px;
+  animation-name: movingtext;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+#polyprop {
+  border-radius: 25px;
+  padding: 50px;
+  border: 15px solid blue;
+  background: #FFF;
+  width: 300px;
+  position: absolute;
+}
+
+#boxWithBorder {
+  background: white;
+  padding: 20px;
+}
+
+@keyframes movingtext {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+#centerColumn {
+  position: relative;
+  top: 30px;
+  width: 400px;
+  margin: 20px;
+  border: 15px solid blue;
+  border-radius: 25px;
+
+}
