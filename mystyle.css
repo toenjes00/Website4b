@@ -1,40 +1,35 @@
 body {
-  background-color: pink;
-  background-image: linear-gradient(to right, green, blue);
+  background-color: white;
+  background-image: linear-gradient(to right, orange, blue);
   display: flex;
   justify-content: center;
+}
+
+#container {
+  position: relative;
+  top: 160px;
+  background: none;
+  width: 500px;
 }
 
 h1 {
   color: white;
   padding: 10px;
-  display: inline;
-  margin-left: 20px;
-  margin-bottom: 25px;
-  position: absolute;
-  top: 20px;
+  position: relative;
   animation-name: movingtext;
   animation-duration: 1s;
   animation-iteration-count: infinite;
 }
 
-#polyprop {
-  border-radius: 25px;
-  padding: 50px;
-  border: 15px solid blue;
-  background: #FFF;
-  width: 300px;
-  position: absolute;
-}
-
-#boxWithBorder {
+#content-box {
   background: white;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 @keyframes movingtext {
-  from {background-color: red;}
-  to {background-color: yellow;}
+  from {background-color: blue;}
+  to {background-color: orange;}
 }
 
 #centerColumn {
@@ -45,4 +40,23 @@ h1 {
   border: 15px solid blue;
   border-radius: 25px;
 
+}
+
+ul {
+  position: relative;
+  margin-bottom: 13px;
+  list-style-type: none;
+  padding: 20px;
+  display: flex;
+  justify-content: left;
+}
+
+a{
+  text-decoration: none;
+  background: #FFF;
+  padding: 15px;
+}
+
+a:hover{
+  background: orange;
 }
