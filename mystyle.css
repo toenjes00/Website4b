@@ -1,3 +1,12 @@
+/* FONTS *******************************************/
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Anton-Regular.ttf);
+}
+
+/**************************************************/
+
 body {
   background-color: white;
   background-image: linear-gradient(to right, orange, blue);
@@ -13,6 +22,7 @@ body {
 }
 
 h1 {
+  font-family: Anton;
   color: white;
   padding: 10px;
   position: relative;
